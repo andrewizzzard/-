@@ -1,0 +1,115 @@
+body {
+    font-family: Calibri, serif;
+    display: flex;
+    justify-content: center;
+    font-size: 12pt;
+}
+
+.resume {
+    width: 700px;
+}
+
+.resume-head {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.resume-head a {
+    font-weight: bolder;
+    color: #1d7891;
+}
+
+.resume-fio {
+    font-size: 24pt;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #1d7891;
+}
+
+.resume-bio {
+    font-size: 11pt;
+}
+
+.resume-position {
+    text-transform: uppercase;
+    font-size: 13pt;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.resume-avatar {
+    border-radius: 90%;
+    background-color: cadetblue;
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    background: url('../files/prpic.jpg');
+    background-position: center;
+}
+
+
+.resume-section {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.resume-section-head {
+    background-color: #daeef3;
+    font-size: 12pt;
+    text-align: right;
+    text-decoration: underline;
+    font-weight: 600;
+    padding: 10px 12px;
+    min-width: 200px;
+    width: 200px;
+    text-transform: uppercase;
+}
+.resume-section-head:first-letter {
+    font-size: 15pt;
+}
+
+.resume-section-body {
+    padding: 10px;
+}
+
+.resume-section-body ul {
+    margin: 0;
+    padding-left: 30px;
+}
+
+.resume-section-body li {
+    list-style-type: none;
+}
+
+.resume-section-body li::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 90%;
+    display: inline-block;
+    background-color: #30839a;
+    margin-right: 10px;
+}
+
+.resume-section-body__title {
+    color: #469ab4;
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+.resume-section-body__time {
+    font-size: 11pt;
+    color: grey;
+    font-weight: bolder;
+}
+
+.resume-section-body__stress {
+    font-weight: bold;
+}
+
+.resume-section-body__italic {
+    font-style: italic;
+}
