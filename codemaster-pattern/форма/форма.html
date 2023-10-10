@@ -1,0 +1,135 @@
+<html>
+ <body>
+  <input class="Моя любимая кнопка" max="10" type="button" value="Моя любимая кнопка" />
+  <link rel="stylesheet" href="fontawesome-free/css/all.min.css"
+  <i class="fa-solid fa-ring"></i>
+  <i class="fa-solid fa-cloud"></i>
+  <div>
+    <i class="fa-solid fa-moon"></i>
+  </div>
+  <i class="fa-solid fa-flask"></i>
+  <fieldset>
+    <legend>Выбери своего монстра </legend>
+  
+    <div>
+      <input type="checkbox" id="Слендермэн" name="Слендермэн" />
+      <label for="Слендермэн">Слендермэн</label>
+    </div>
+  
+    <div>
+      <input type="checkbox" id="Русалка" name="Русалка" />
+      <label for="Русалка">Русалка</label>
+    </div>
+  </fieldset>
+  <p>Choose your monster's colors:</p>
+
+<div>
+  <input type="color" id="Красный" name="Красный" value="#ff0000" />
+  <label for="Красный">Красный</label>
+</div>
+
+<div>
+  <input type="color" id="Зелёный" name="Зелёный" value="#00ff00" />
+  <label for="Зелёный">Зелёный</label>
+</div>
+<div>
+<label for="Начальная дата">Начальная дата:</label>
+
+<input type="date" id="Начальная дата" name="Начальная дата" value="2025-07-22" min="2025-01-01" max="2025-12-31" />
+</div>
+<div>
+<label for="Время встречи">Выбери время для встречи:</label>
+<input
+  type="datetime-local"
+  id="Время встречи"
+  name="Время встречи"
+  value="2018-06-12T19:30"
+  min="2018-06-07T00:00"
+  max="2018-06-14T00:00"
+/>
+</div>
+<div>
+<label for="Мыло">Введите свой email account:</label>
+
+<input type="email" id="Мыло" pattern=".+@globex\.com" size="30" required />
+</div>
+<div>
+  <label for="Пикча">Выберите свою картинку:</label>
+<input type="file" id="Пикча" name="Пикча" accept="image/png, image/jpeg" />
+</div>
+<div>
+<label for="Начало месяца">Начало месяца:</label>
+<input type="month" id="Начало месяца" name="Начало месяца" min="2018-03" value="2018-05" />
+</div>
+<label for="щупальцы"> Число щупальцев (10-100):</label>
+<input type="number" id="щупальцы" name="щупальцы" min="10" max="100" />
+<div>
+  <label for="Имя пользователя"> Имя пользователя:</label>
+  <input type="text" id="Имя пользователя" name="Имя пользователя" />
+</div>
+
+<div>
+  <label for="пароль"> Пароль (8 символов минимум):</label>
+  <input type="password" id="паоль" name="пароль" minlength="8" required />
+</div>
+
+<input type="submit" value="Войти"/>
+<fieldset>
+  <legend>Выбери марку чипсов:</legend>
+
+  <div>
+    <input type="radio" id="Lays" name="Lays" value="Lays" checked />
+    <label for="Lays"> Lays</label>
+  </div>
+
+  <div>
+    <input type="radio" id="Fritos" name="Fritos" value="Fritos" />
+    <label for="Fritos">Fritos</label>
+  </div>
+
+  <div>
+    <input type="radio" id="Pringles" name="Pringles" value="Pringles" />
+    <label for="Pringles">Pringles</label>
+  </div>
+</fieldset>
+<p>Настройки звука:</p>
+
+<div>
+  <input type="range" id="звук" name="звук" min="0" max="11" />
+  <label for="звук">звук</label>
+</div>
+
+<div>
+  <input type="range" id="микрофон" name="микрофон" min="0" max="100" value="90" step="10" />
+  <label for="микрофон">микрофон</label>
+</div>
+<label for="phone">Введите свой номер телефона:</label>
+
+<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+<div>
+<label for="Поиск сайта"> Поиск сайта:</label>
+<input type="search" id="поиск сайта" name="поиск сайта" />
+<button>Поиск</button>
+</div>
+<div>
+  <input type="submit" value="Отправьте запрос">
+</div>
+<label for="Имя"> Имя (с 4 до 8 символов):</label>
+
+<input type="text" id="Имя" name="Имя" required minlength="4" maxlength="8" size="10" />
+<div>
+<label for="appt">Выберите время для встречи:</label>
+<input type="time" id="appt" name="appt" min="09:00" max="18:00" required />
+</div>
+<form>
+  <label for="url">Введите an https:// URL:</label>
+  <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required />
+</form>
+<div>
+  <label for="week">Выберите неделю в Мае или в Июне:</label>
+<input type="week" name="week" id="camp-week" min="2018-W18" max="2018-W26" required />
+<div> <i class="fa-sharp fa-solid fa-temperature-snow"></i>
+</div>
+</div>
+ </body>
+</html>
