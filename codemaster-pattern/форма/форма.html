@@ -1,6 +1,9 @@
+<!--1. У тега html отсутствует аттрибут lang-->
+<!--2. Отсутствует head, что является критической ошибкой-->
 <html>
  <body>
   <input class="Моя любимая кнопка" max="10" type="button" value="Моя любимая кнопка" />
+  <!--Ссылка некорректная + тег не закрыт в конце-->
   <link rel="stylesheet" href="fontawesome-free/css/all.min.css"
   <i class="fa-solid fa-ring"></i>
   <i class="fa-solid fa-cloud"></i>
@@ -10,12 +13,13 @@
   <i class="fa-solid fa-flask"></i>
   <fieldset>
     <legend>Выбери своего монстра </legend>
-  
+
     <div>
-      <input type="checkbox" id="Слендермэн" name="Слендермэн" />
+        <!--Использование кириллицы в качестве Id, класса и тп (всё кроме контента) - недопустимо. Все должно быть написано латиницей-->
+        <input type="checkbox" id="Слендермэн" name="Слендермэн" />
       <label for="Слендермэн">Слендермэн</label>
     </div>
-  
+
     <div>
       <input type="checkbox" id="Русалка" name="Русалка" />
       <label for="Русалка">Русалка</label>
